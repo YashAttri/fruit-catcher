@@ -148,5 +148,18 @@ class Game{
           });
         }
 
+        gameOver() {
+            textSize(40) 
+            fill("white") 
+            text("GAME OVER",displayWidth/2-400,displayHeight/2-200)
+         
+         }
 
+         end() {
+             console.log("Game Ended")
+             console.log(player.rank)
+             this.gameOver();
+         }
+
+         
 }

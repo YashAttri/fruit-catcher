@@ -47,6 +47,8 @@ class Player {
            database.ref("/").update({
              playerAtEnd: rank
            });
+
+           
     
 
    //write a function for getPlayerAtEnd()
